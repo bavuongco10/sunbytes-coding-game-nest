@@ -17,5 +17,3 @@ export class TestDto {
   @IsAlphanumeric()
   company: string;
 }
-
-export default TestDto;

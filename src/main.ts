@@ -11,7 +11,8 @@ async function bootstrap() {
   app.useGlobalFilters(new MaskedBadRequestException());
 
   AddSwagger(app, 'API');
-  await app.listen(3000);
+  await app.listen(3001);
+  console.log('http://localhost:3001/documents');
 }
 
 bootstrap();
